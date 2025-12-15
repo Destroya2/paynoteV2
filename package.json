@@ -1,0 +1,13 @@
+{
+  "name": "paynote",
+  "version": "1.0.0",
+  "description": "SaaS de facturation IA pour freelances",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["invoicing", "ai", "saas"],
+  "author": "Paynote",
+  "license": "MIT"
+}

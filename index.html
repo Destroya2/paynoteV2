@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paynote - Factures IA en 30 secondes ⚡</title>
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <svg width="36" height="36" viewBox="0 0 40 40" fill="none">
+                        <rect width="40" height="40" rx="10" fill="url(#gradient1)"/>
+                        <path d="M12 28V12H18C21 12 23 14 23 17C23 20 21 22 18 22H15V28H12ZM15 19H18C19 19 20 18 20 17C20 16 19 15 18 15H15V19Z" fill="white"/>
+                        <circle cx="28" cy="22" r="4" fill="#34D399"/>
+                        <defs>
+                            <linearGradient id="gradient1" x1="0" y1="0" x2="40" y2="40">
+                                <stop offset="0%" stop-color="#6366F1"/>
+                                <stop offset="100%" stop-color="#8B5CF6"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <span class="logo-text">Paynote</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#fonctionnalites" class="nav-link">Fonctionnalités</a>
+                <a href="#tarifs" class="nav-link">Tarifs</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="login.html" class="btn btn-ghost">Connexion</a>
+                <a href="register.html" class="btn btn-primary">Essai gratuit</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <span class="badge-icon">✨</span>
+                <span>Propulsé par l'IA</span>
+            </div>
+            
+            <h1 class="hero-title">
+                Crée ta facture freelance<br>
+                <span class="gradient-text">en 30 secondes</span>
+            </h1>
+            
+            <p class="hero-subtitle">
+                Décris ton service en langage naturel, notre IA génère<br>
+                une facture professionnelle instantanément
+            </p>
+            
+            <div class="hero-cta">
+                <a href="register.html" class="btn btn-hero">
+                    <span>Créer ma première facture</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </a>
+                <p class="hero-cta-note">Gratuit • Sans carte bancaire • 2 min</p>
+            </div>
+
+            <!-- Interactive Demo -->
+            <div class="demo-interactive">
+                <div class="demo-card">
+                    <div class="demo-input-wrapper">
+                        <div class="demo-label">
+                            <span class="pulse-dot"></span>
+                            <span>Décris ta facture</span>
+                        </div>
+                        <div class="demo-input-box">
+                            <p>"Mission dev React pour Acme Corp, 3 jours à 500€/jour, paiement 30 jours"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="demo-arrow">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="20" fill="#F3F4F6"/>
+                            <path d="M20 14v12m0 0l-4-4m4 4l4-4" stroke="#6366F1" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <span class="ai-badge">IA ✨</span>
+                    </div>
+                    
+                    <div class="demo-output">
+                        <div class="demo-output-header">
+                            <span class="status-badge">Généré</span>
+                            <span class="time-badge">⚡ 2.3s</span>
+                        </div>
+                        <div class="invoice-preview-mini">
+                            <div class="invoice-mini-header">
+                                <span class="invoice-number">FAC-2025-0001</span>
+                                <span class="invoice-amount">1 500,00 €</span>
+                            </div>
+                            <div class="invoice-mini-details">
+                                <p>📄 PDF professionnel prêt</p>
+                                <p>✉️ Envoi par email</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">30s</div>
+                    <div class="stat-label">Temps de génération</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Automatisé par IA</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">0€</div>
+                    <div class="stat-label">Pour commencer</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Freelances satisfaits</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="fonctionnalites" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Fonctionnalités</span>
+                <h2 class="section-title">Tout ce dont tu as besoin</h2>
+                <p class="section-subtitle">Une solution complète pour gérer tes factures sans effort</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <h3>IA Intelligente</h3>
+                    <p>Notre IA comprend le langage naturel et extrait automatiquement toutes les infos nécessaires</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" fill="white"/>
+                        </svg>
+                    </div>
+                    <h3>Génération éclair</h3>
+                    <p>Facture professionnelle générée en moins de 30 secondes, numérotation automatique incluse</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>PDF Professionnel</h3>
+                    <p>Design moderne et conforme aux normes, prêt à envoyer à tes clients</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Envoi automatique</h3>
+                    <p>Envoie tes factures directement par email à tes clients en un clic</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Historique complet</h3>
+                    <p>Toutes tes factures sauvegardées et accessibles en un coup d'œil</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Gestion clients</h3>
+                    <p>Base de données clients intégrée pour retrouver facilement tes contacts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works -->
+    <section class="how-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Simple et rapide</span>
+                <h2 class="section-title">3 étapes pour ta facture</h2>
+            </div>
+
+            <div class="steps-timeline">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Décris en texte libre</h3>
+                        <p>Parle naturellement : "Mission dev pour Client X, 5 jours à 600€/jour"</p>
+                        <div class="step-visual">
+                            <div class="typing-demo">Consultation SEO pour...</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-connector"></div>
+
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>L'IA structure tout</h3>
+                        <p>Extraction du client, montant, dates, génération de description pro</p>
+                        <div class="step-visual ai-visual">
+                            <div class="ai-processing">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-connector"></div>
+
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>PDF prêt en 30s</h3>
+                        <p>Télécharge ou envoie directement par email à ton client</p>
+                        <div class="step-visual">
+                            <div class="pdf-preview">
+                                <span>📄</span>
+                                <span>FAC-2025-0001.pdf</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="tarifs" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Tarifs</span>
+                <h2 class="section-title">Simple et transparent</h2>
+                <p class="section-subtitle">Commence gratuitement, upgrade quand tu en as besoin</p>
+            </div>
+
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Gratuit</h3>
+                        <div class="price">
+                            <span class="price-amount">0€</span>
+                            <span class="price-period">/mois</span>
+                        </div>
+                        <p class="pricing-desc">Parfait pour commencer</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> 5 factures par mois</li>
+                        <li><span class="check">✓</span> Génération IA</li>
+                        <li><span class="check">✓</span> Export PDF</li>
+                        <li><span class="check">✓</span> Historique</li>
+                        <li><span class="check">✓</span> Numérotation auto</li>
+                    </ul>
+                    <a href="register.html" class="btn btn-outline">Commencer gratuit</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="popular-badge">⭐ Populaire</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="price-amount">4€</span>
+                            <span class="price-period">/mois</span>
+                        </div>
+                        <p class="pricing-desc">Pour les freelances actifs</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> <strong>Factures illimitées</strong></li>
+                        <li><span class="check">✓</span> Envoi par email</li>
+                        <li><span class="check">✓</span> Gestion clients</li>
+                        <li><span class="check">✓</span> Support prioritaire</li>
+                        <li><span class="check">✓</span> Personnalisation</li>
+                    </ul>
+                    <a href="register.html" class="btn btn-primary">Essayer Pro</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Premium</h3>
+                        <div class="price">
+                            <span class="price-amount">9€</span>
+                            <span class="price-period">/mois</span>
+                        </div>
+                        <p class="pricing-desc">Fonctionnalités avancées</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> Tout de Pro</li>
+                        <li><span class="check">✓</span> Logo personnalisé</li>
+                        <li><span class="check">✓</span> Rappels automatiques</li>
+                        <li><span class="check">✓</span> Export comptable</li>
+                        <li><span class="check">✓</span> Multi-devises</li>
+                    </ul>
+                    <a href="register.html" class="btn btn-outline">Essayer Premium</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">FAQ</span>
+                <h2 class="section-title">Questions fréquentes</h2>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Comment l'IA comprend-elle mon texte ?</h4>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Notre IA utilise GPT-4 pour comprendre le langage naturel. Parle comme tu le ferais à un collègue : "Mission dev React, 3 jours, 500€/jour, client Acme". L'IA extrait automatiquement toutes les infos nécessaires.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Mes données sont-elles sécurisées ?</h4>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolument. Hébergement sécurisé sur Supabase (Europe), chiffrement des données, conformité RGPD. Tes factures et infos clients restent 100% privées.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Puis-je personnaliser mes factures ?</h4>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Oui ! Ajoute ton logo, tes infos légales (SIRET, TVA), personnalise les mentions. Les plans Pro et Premium offrent encore plus d'options de personnalisation.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Comment annuler mon abonnement ?</h4>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>En un clic depuis ton profil. Pas d'engagement, résiliation immédiate. Tu gardes l'accès à tes factures existantes en lecture seule.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Que se passe-t-il si je dépasse ma limite ?</h4>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>En plan gratuit, tu es limité à 5 factures/mois. Pour continuer, tu peux upgrader à Pro (illimité) pour seulement 4€/mois. Upgrade en un clic.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>L'IA fait-elle des erreurs ?</h4>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>L'IA est très précise, mais tu peux toujours vérifier et modifier avant de télécharger ou envoyer. Un aperçu complet te permet de valider chaque information.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-content">
+                    <h2>Prêt à gagner du temps ?</h2>
+                    <p>Rejoins des centaines de freelances qui génèrent leurs factures en 30 secondes</p>
+                    <div class="cta-buttons">
+                        <a href="register.html" class="btn btn-white">
+                            <span>Créer mon compte gratuit</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <p class="cta-note">✓ Sans carte bancaire  ✓ 2 min d'installation  ✓ Support inclus</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <svg width="32" height="32" viewBox="0 0 40 40" fill="none">
+                                <rect width="40" height="40" rx="10" fill="url(#gradient2)"/>
+                                <path d="M12 28V12H18C21 12 23 14 23 17C23 20 21 22 18 22H15V28H12ZM15 19H18C19 19 20 18 20 17C20 16 19 15 18 15H15V19Z" fill="white"/>
+                                <circle cx="28" cy="22" r="4" fill="#34D399"/>
+                                <defs>
+                                    <linearGradient id="gradient2" x1="0" y1="0" x2="40" y2="40">
+                                        <stop offset="0%" stop-color="#6366F1"/>
+                                        <stop offset="100%" stop-color="#8B5CF6"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <span>Paynote</span>
+                    </div>
+                    <p>La solution de facturation IA<br>pour freelances</p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Produit</h4>
+                        <a href="#fonctionnalites">Fonctionnalités</a>
+                        <a href="#tarifs">Tarifs</a>
+                        <a href="#">Sécurité</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Ressources</h4>
+                        <a href="#">Guide</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Support</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Légal</h4>
+                        <a href="#">CGU</a>
+                        <a href="#">Confidentialité</a>
+                        <a href="#">Mentions légales</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 Paynote. Fait avec ❤️ pour les freelances.</p>
+                <div class="footer-social">
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">contact@paynote.app</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/landing.js"></script>
+</body>
+</html>
